@@ -1,6 +1,6 @@
 @import "nullifying.scss";
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Roboto:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -64,14 +64,6 @@ body {
       color: #212121;
     }
   }
-  &__search {
-    width: 30px;
-    height: 30px;
-    background: url("/img/logo/search.svg") center/cover no-repeat;
-    cursor: pointer;
-    position: relative;
-    z-index: 3;
-  }
   &__burger {
     display: none;
   }
@@ -91,7 +83,7 @@ body {
     font-family: Roboto;
     font-size: 18px;
     line-height: 22px;
-    font-weight: 700;
+    font-weight: 400;
     letter-spacing: 0.05em;
     color: #212121;
     padding: 21px 0px 18px 0px;
@@ -181,15 +173,15 @@ body {
   .header__burger.active span {
     transform: scale(0);
   }
-  .header__search {
-    display: none;
-  }
   .content {
     padding-top: 76px;
   }
   .footer {
     &__inner {
-      font-size: 16px;
+      p {
+        font-weight: 400;
+        font-size: 16px;
+      }
     }
   }
 }
