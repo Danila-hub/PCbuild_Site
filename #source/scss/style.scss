@@ -38,12 +38,12 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 17px 35px 8px 0px;
+    padding: 17px 35px 8px 10px;
   }
   &__logo {
-    width: 85px;
-    height: 91px;
-    pointer-events: none;
+    width: 81px;
+    height: 95px;
+    background: url('/img/logo/logo_img.svg') center/cover no-repeat;
     position: relative;
     z-index: 99;
   }
@@ -63,6 +63,10 @@ body {
     a {
       color: #212121;
     }
+    a:hover {
+        transition: 0.25s ease all;
+        color: #ffd200;
+    }
   }
   &__burger {
     display: none;
@@ -71,7 +75,7 @@ body {
 
 .content {
   flex: 1 1 auto;
-  padding-top: 116px;
+  padding-top: 120px;
 }
 
 .footer {
@@ -144,15 +148,11 @@ body {
     top: 0;
   }
   .header__inner {
-    padding: 8px 15px 8px 0px;
+    padding: 8px 15px 8px 10px;
   }
   .header__logo {
-    width: 60px;
-    height: 60px;
-    img {
-      object-fit: cover;
-      object-position: center;
-    }
+   width: 54px;
+   height: 63px;
   }
   .header__menu {
     display: block;
@@ -174,7 +174,7 @@ body {
     transform: scale(0);
   }
   .content {
-    padding-top: 76px;
+    padding-top: 79px;
   }
   .footer {
     &__inner {
