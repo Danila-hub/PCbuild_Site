@@ -188,7 +188,9 @@ body {
     padding-top: 76px;
   }
   .footer {
+    &__inner {
       font-size: 16px;
+    }
   }
 }
 @media (max-width: 900px) {
