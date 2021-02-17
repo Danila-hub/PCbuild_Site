@@ -161,6 +161,23 @@ body {
   display: none;
 }
 
+.title {
+  font-family: OpenSans;
+  font-size: 30px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
+.subtitle {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+
 .content {
   flex: 1 1 auto;
   padding-top: 120px;
