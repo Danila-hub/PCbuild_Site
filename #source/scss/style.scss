@@ -1,8 +1,8 @@
-@import "nullifying.scss";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+@import 'nullifying.scss';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .wrapper {
   display: flex;
@@ -24,7 +24,7 @@ body {
   left: 0;
   z-index: 50;
   &:before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -64,13 +64,29 @@ body {
       color: #212121;
     }
     a:hover {
-        transition: 0.25s ease all;
-        color: #ffd200;
+      transition: 0.25s ease all;
+      color: #ffd200;
     }
   }
   &__burger {
     display: none;
   }
+}
+
+.title {
+  font-family: OpenSans;
+  font-size: 30px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #212121;
+}
+.subtitle {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  color: #212121;
 }
 
 .content {
@@ -107,7 +123,7 @@ body {
   }
   .header__burger:before,
   .header__burger:after {
-    content: "";
+    content: '';
     background-color: #262626;
     position: absolute;
     width: 30px;
@@ -151,8 +167,8 @@ body {
     padding: 8px 15px 8px 10px;
   }
   .header__logo {
-   width: 54px;
-   height: 63px;
+    width: 54px;
+    height: 63px;
   }
   .header__menu {
     display: block;
