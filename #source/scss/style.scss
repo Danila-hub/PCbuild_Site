@@ -44,6 +44,9 @@ body {
     width: 70px;
     height: 70px;
     background: url('/img/logo/logo_img.svg') center no-repeat;
+    width: 81px;
+    height: 95px;
+    background: url('/img/logo/logo_img.svg') center/cover no-repeat;
     position: relative;
     z-index: 99;
   }

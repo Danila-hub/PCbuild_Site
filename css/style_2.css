@@ -19,8 +19,11 @@
   justify-content: space-around;
 }
 
+.team {
+  background-color: #f0f1f1;
+}
 .team .title {
-  margin-top: 0px;
+  padding-top: 130px;
 }
 
 .team__info {
