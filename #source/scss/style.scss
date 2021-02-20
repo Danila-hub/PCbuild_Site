@@ -225,10 +225,15 @@ body {
       text-transform: uppercase;
       margin-right: 20px;
       color: #212121;
-      &:first-child {
-        width: 100px;
+      transition: 0.3s all ease;
+      cursor: pointer;
+      &:hover {
         background-color: #fcd000;
       }
+    }
+    .tab__active {
+      display: flex;
+      background-color: #fcd000;
     }
     &__components {
       margin-top: 114px;
@@ -237,6 +242,18 @@ body {
       flex-wrap: wrap;
       justify-content: center;
       padding: 0 15px;
+      .tab__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+    .hide {
+      display: none;
+    }
+
+    .show {
+      display: flex;
     }
     &__component {
       &__inner {
@@ -268,8 +285,10 @@ body {
         font-weight: 600;
       }
       &-descr {
+        max-width: 250px;
         margin-top: 15px;
         line-height: 18px;
+        overflow: hidden;
       }
       &-price {
         margin-top: 15px;
@@ -280,8 +299,7 @@ body {
         background-color: #fcd000;
         font-size: 20px;
         font-family: 'Roboto', sans-serif;
-        margin-top: 25px;
-        margin-bottom: 25px;
+        margin: 25px 0px;
         width: 50%;
         color: #212121;
         font-weight: 400;
@@ -461,8 +479,8 @@ body {
     padding: 8px 15px 8px 10px;
   }
   .header__logo {
-    width: 54px;
-    height: 63px;
+    width: 50px;
+    height: 50px;
   }
   .header__menu {
     display: block;
@@ -551,8 +569,7 @@ body {
     .accessories__components {
       margin-top: 60px;
     }
-    .accessories__component {
-    }
+
     .accessories__btn {
       margin: 60px 0;
     }
@@ -572,5 +589,17 @@ body {
         width: 300px;
       }
     }
+  }
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
   }
 }
