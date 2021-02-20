@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 body {
+  background: #f0f1f1;
   font-family: 'Open Sans', sans-serif;
 }
 .wrapper {
@@ -17,7 +18,6 @@ body {
 }
 
 .header {
-  background-color: #f0f1f1;
   position: fixed;
   width: 100%;
   top: 0;
@@ -30,7 +30,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #f0f1f1;
+    background-color: #fff;
     z-index: 2;
   }
   &__inner {
@@ -41,9 +41,9 @@ body {
     padding: 17px 35px 8px 10px;
   }
   &__logo {
-    width: 81px;
-    height: 95px;
-    background: url('/img/logo/logo_img.svg') center/cover no-repeat;
+    width: 70px;
+    height: 70px;
+    background: url('/img/logo/logo_img.svg') center no-repeat;
     position: relative;
     z-index: 99;
   }
@@ -72,7 +72,7 @@ body {
 }
 
 .title {
-  margin-top: 123px;
+  padding-top: 123px;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -92,7 +92,7 @@ body {
 
 .content {
   flex: 1 1 auto;
-  padding-top: 120px;
+  padding-top: 95px;
   .heading {
     display: flex;
     flex-direction: column;
@@ -146,6 +146,7 @@ body {
       color: #000000;
     }
     &__anchor {
+      display: flex;
       margin-top: 100px;
       margin-bottom: 90px;
       width: 16px;
@@ -153,6 +154,7 @@ body {
       transform: rotate(45deg);
       border-bottom: 5px solid #fff;
       border-right: 5px solid #fff;
+      cursor: pointer;
     }
   }
   .about {
@@ -268,14 +270,13 @@ body {
     }
   }
   .build {
-    background: #f0f1f1;
     &__inner {
       display: flex;
       flex-direction: column;
       align-items: center;
     }
     &__builds {
-      margin-top: 127px;
+      margin-top: 110px;
       display: flex;
       justify-content: center;
       margin-right: -20px;
@@ -305,11 +306,11 @@ body {
         justify-content: center;
         flex-direction: column;
         text-align: center;
-        height: 209px;
+        height: 180px;
         background: #fcd000;
         p {
-          font-size: 50px;
-          margin-top: 32px;
+          font-size: 42px;
+          margin-top: 28px;
         }
       }
       &-list {
@@ -319,7 +320,7 @@ body {
         font-weight: 300;
         color: #212121;
         li {
-          margin-bottom: 52px;
+          margin-bottom: 35px;
           position: relative;
           &::after {
             content: '';
@@ -350,7 +351,6 @@ body {
 }
 
 .footer {
-  background-color: #f0f1f1;
   &__inner {
     display: flex;
     justify-content: center;
@@ -479,7 +479,7 @@ body {
   .about {
     padding: 0 15px;
     &__title {
-      margin-top: 60px;
+      padding-top: 40px;
     }
     .about__worth {
       margin-top: 60px;
@@ -493,7 +493,7 @@ body {
   .accessories {
     padding: 0 15px;
     .accessories__title {
-      margin-top: 60px;
+      padding-top: 40px;
     }
 
     .accessories__tabs {
@@ -524,7 +524,7 @@ body {
   .build {
     padding: 0 15px;
     .build__title {
-      margin-top: 60px;
+      padding-top: 40px;
     }
     .build__builds {
       margin-top: 60px;
