@@ -218,6 +218,16 @@
     object-fit: cover;
     object-position: center;
     width: 570px;
+    margin: 0px;
+  }
+  .blog__item .blog__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .blog__item .blog__content:nth-child(even) {
+    margin-right: 0px;
   }
   .blog__item .blog__title {
     font-size: 25px;
