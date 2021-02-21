@@ -1,2 +1,5 @@
 # Danila-hub.github.io
-Веб-сайт по сборке пк.
+Лендинг по сборке пк.
+
+PC assembly landing page
+![Image alt](https://i.imgur.com/bax6RT4.png)
