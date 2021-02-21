@@ -27,15 +27,15 @@
 .team__info {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 .team__info img {
-  max-width: 230px;
-  max-height: 330px;
-  height: 100%;
-  width: 100%;
   object-fit: cover;
   object-position: center;
+  width: 230px;
+  height: 330px;
   border: solid 4px #ffd200;
   border-radius: 10px;
 }
@@ -60,7 +60,9 @@
   flex-direction: row-reverse;
 }
 .blog__item img {
-  max-width: 570px;
+  object-fit: cover;
+  object-position: center;
+  width: 570px;
   margin-right: 30px;
 }
 .blog__item .blog__content:nth-child(even) {
@@ -204,4 +206,60 @@
 }
 .communication__header .subtitle {
   color: white;
+}
+
+@media (max-width: 916px) {
+  .blog__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .blog__item img {
+    object-fit: cover;
+    object-position: center;
+    width: 570px;
+  }
+  .blog__item .blog__title {
+    font-size: 25px;
+    color: #ffd200;
+    margin-bottom: 29px;
+    margin-top: 14px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+  }
+  .blog__item .blog__date {
+    font-size: 17px;
+    margin-bottom: 33px;
+    background: url(/img/icons/calendar.png) no-repeat left/15px;
+    padding-left: 20px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+  }
+  .blog__item .blog__subtitle {
+    max-width: 447px;
+    line-height: 22px;
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 99px;
+  }
+
+  .blog__more {
+    display: flex;
+    justify-content: center;
+    margin-top: 127px;
+    margin-bottom: 125px;
+  }
+
+  .blog__buttom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 220px;
+    height: 70px;
+    background-color: #fcd000;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+  }
 }
