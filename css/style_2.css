@@ -19,15 +19,15 @@
   justify-content: space-around;
 }
 
-.team {
-  background-color: #f0f1f1;
-}
 .team .title {
+  background-color: #f0f1f1;
   padding-top: 130px;
 }
 
 .team__info {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 .team__info img {
   max-width: 230px;
