@@ -134,7 +134,7 @@ body {
 .header__logo {
   width: 70px;
   height: 70px;
-  background: url("/img/logo/logo_img.svg") center no-repeat;
+  background: url("img/logo/logo_img.svg") center no-repeat;
   position: relative;
   z-index: 99;
 }
@@ -189,7 +189,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #003d6b url("/img/background_images/background_pc.jpeg") center/cover no-repeat;
+  background: #003d6b url("img/background_images/background_pc.jpeg")
+    center/cover no-repeat;
 }
 .content .heading__title {
   padding-top: 220px;
@@ -521,7 +522,7 @@ body {
   }
 
   .header__burger:before,
-.header__burger:after {
+  .header__burger:after {
     content: "";
     background-color: #262626;
     position: absolute;
