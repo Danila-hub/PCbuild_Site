@@ -134,7 +134,7 @@ body {
 .header__logo {
   width: 70px;
   height: 70px;
-  background: url("img/logo/logo_img.svg") center no-repeat;
+  background: url("/img/logo/logo_img.svg") center no-repeat;
   position: relative;
   z-index: 99;
 }
@@ -189,7 +189,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #003d6b url("img/background_images/background_pc.jpeg")
+  background: #003d6b url("/img/background_images/background_pc.jpeg")
     center/cover no-repeat;
 }
 .content .heading__title {
