@@ -134,7 +134,7 @@ body {
 .header__logo {
   width: 70px;
   height: 70px;
-  background: url("/img/logo/logo_img.svg") center no-repeat;
+  background: url("img/logo/logo_img.svg") center no-repeat;
   position: relative;
   z-index: 99;
 }
