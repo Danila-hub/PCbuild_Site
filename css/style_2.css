@@ -79,7 +79,7 @@
 .blog__item .blog__date {
   font-size: 17px;
   margin-bottom: 33px;
-  background: url(/img/icons/calendar.png) no-repeat left/15px;
+  background: url(img/icons/calendar.png) no-repeat left/15px;
   padding-left: 20px;
   font-weight: 600;
   font-family: "Open Sans", sans-serif;
@@ -209,7 +209,8 @@
 }
 
 .communication {
-  background: url(/img/background_images/background_calls.jpg) no-repeat center/cover;
+  background: url(img/background_images/background_calls.jpg) no-repeat
+    center/cover;
 }
 
 .communication__header .title {
@@ -251,7 +252,7 @@
   .blog__item .blog__date {
     font-size: 17px;
     margin-bottom: 33px;
-    background: url(/img/icons/calendar.png) no-repeat left/15px;
+    background: url(img/icons/calendar.png) no-repeat left/15px;
     padding-left: 20px;
     font-weight: 600;
     font-family: "Open Sans", sans-serif;
